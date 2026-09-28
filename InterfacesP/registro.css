@@ -1,0 +1,53 @@
+body.registro-cuerpo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff4e6;
+}
+
+.registro-contenedor {
+    width: 80%;
+    max-width: 650px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.registro-regresar {
+    background: #f59e0b;
+    color: white;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 18px;
+}
+
+.registro-titulo {
+    text-align: center;
+    color: #c2410c;
+    margin: 35px 0;
+}
+
+.registro-label {
+    display: block;
+    margin: 18px 0 7px;
+    color: #444;
+}
+
+.registro-input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #f5b97a;
+    background: #fffaf5;
+    border-radius: 7px;
+}
+
+.registro-boton {
+    display: block;
+    margin: 30px auto 0;
+    padding: 11px 25px;
+    border: 0;
+    border-radius: 20px;
+    background: #f97316;
+    color: white;
+    font-size: 16px;
+}

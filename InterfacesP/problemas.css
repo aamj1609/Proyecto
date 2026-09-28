@@ -1,0 +1,81 @@
+body.problemas-cuerpo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff1f2;
+}
+
+.problemas-contenedor {
+    width: 85%;
+    max-width: 850px;
+    margin: 35px auto;
+}
+
+.problemas-regresar {
+    background: #e11d48;
+    color: white;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 18px;
+}
+
+.problemas-menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.problemas-menu a {
+    background: #be123c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+.problemas-menu a:hover {
+    background: #e11d48;
+    box-shadow: 0 0 10px #e11d48;
+}
+
+.problemas-titulo {
+    text-align: center;
+    color: #9f1239;
+    font-size: 22px;
+    margin: 30px;
+}
+
+.problemas-lista {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.problema-uno,
+.problema-dos,
+.problema-tres {
+    margin: 25px 0;
+    padding: 15px;
+    border-bottom: 2px solid #fecdd3;
+}
+
+.problema-uno button,
+.problema-dos button,
+.problema-tres button {
+    background: #f43f5e;
+    color: white;
+    border: 0;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.problema-uno select,
+.problema-dos select,
+.problema-tres select {
+    padding: 7px;
+}
+
+.problema-uno button:hover,
+.problema-dos button:hover,
+.problema-tres button:hover{
+    background: #ed2647;
+    box-shadow: 0 0 10px #f43f5e;
+}

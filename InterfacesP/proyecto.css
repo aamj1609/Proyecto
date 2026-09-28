@@ -1,0 +1,79 @@
+body.proyecto-cuerpo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff7ed;
+}
+
+.proyecto-contenedor {
+    width: 85%;
+    max-width: 850px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.proyecto-regresar {
+    background: #ea580c;
+    color: white;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 18px;
+}
+
+.proyecto-menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.proyecto-menu a {
+    background: #c2410c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+.proyecto-menu a:hover {
+    background: #ea580c;
+    box-shadow: 0 0 10px #ea580c;
+}
+
+.proyecto-titulo {
+    color: #9a3412;
+    margin: 35px;
+}
+
+.proyecto-texto {
+    font-size: 18px;
+    color: #444;
+}
+
+.proyecto-integrantes {
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.proyecto-gracias {
+    font-size: 20px;
+    color: #c2410c;
+    font-weight: bold;
+}
+
+.proyecto-imagen {
+    width: 300px;
+    height: 180px;
+    margin: 25px auto;
+    background: #fed7aa;
+    border-radius: 10px;
+}
+
+.proyecto-imagen img {
+    width: 100%;
+    height: 100%;
+    
+}
+.proyecto-imagen img:hover {
+    transform: scale(1.05);
+    transition: transform 0.9s ease;
+}

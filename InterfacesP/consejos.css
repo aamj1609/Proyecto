@@ -1,0 +1,81 @@
+body.consejos-cuerpo {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eff6ff;
+}
+
+.consejos-contenedor {
+    width: 85%;
+    max-width: 800px;
+    margin: 35px auto;
+}
+
+.consejos-regresar {
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 9px 18px;
+    border-radius: 18px;
+}
+
+.consejos-menu {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.consejos-menu a {
+    background: #1d4ed8;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+}
+
+.consejos-menu a:hover {
+    background: #2563eb;
+    box-shadow: 0 0 10px #2563eb;
+}
+
+.consejos-titulo {
+    text-align: center;
+    color: #1e40af;
+    margin: 30px;
+}
+
+.consejo-uno,
+.consejo-dos,
+.consejo-tres,
+.consejo-cuatro,
+.consejo-cinco,
+.consejo-seis {
+    background: white;
+    margin: 10px auto;
+    padding: 13px;
+    max-width: 550px;
+    border-bottom: 2px solid #93c5fd;
+    color: #1e3a8a;
+}
+.consejo-uno button,
+.consejo-dos button,
+.consejo-tres button,
+.consejo-cuatro button,
+.consejo-cinco button,
+.consejo-seis button {
+    background: #1d4ed8;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.consejo-uno button:hover,
+.consejo-dos button:hover,
+.consejo-tres button:hover,
+.consejo-cuatro button:hover,
+.consejo-cinco button:hover,
+.consejo-seis button:hover {
+    background: #2563eb;
+    box-shadow: 0 0 15px #2563eb;
+
+}
+
